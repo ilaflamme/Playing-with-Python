@@ -6,11 +6,14 @@ __author__ = 'ilaflamme'
 #                  We gonna' code'zez
 #
 # ------------------------------------------------------
+from Tree import Tree
 
-inputData = []
-i = 1
-for entry in range(0, 99):
-    inputData.append(i)
-    i += 1
-print inputData
+thisTree = Tree(None)
 
+inputData = [3,5,4,2,8]
+
+for entry in inputData:
+    print entry
+    thisTree.addEntry(entry)
+
+thisTree.printTree(thisTree.root)

@@ -20,9 +20,7 @@ class Node:
     left = None
     right = None
 
-    def __init__(self, data, left, right):
+    def __init__(self, data):
         self.data = data
-        self.left = left
-        self.right = right
 
 
