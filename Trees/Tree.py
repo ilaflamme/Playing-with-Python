@@ -6,3 +6,7 @@ __author__ = 'ilaflamme'
 #                  We gonna' code'zez
 #
 # ------------------------------------------------------
+
+class Tree:
+
+    root = None
