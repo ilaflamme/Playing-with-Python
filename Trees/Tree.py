@@ -58,6 +58,14 @@ class Tree:
         self.buildOutput(thisNode)
         print self.outputData
 
-
+    def searchTree(self, value, thisNode):
+        if thisNode is None:
+            print "Tree does not contain value."
+        elif thisNode.data is value:
+            print "Tree contains value"
+        elif value < thisNode.data:
+            self.searchTree(value, thisNode.left)
+        else:
+            self.searchTree(value, thisNode.right)
 
 

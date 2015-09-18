@@ -17,3 +17,5 @@ for entry in inputData:
     thisTree.addEntry(entry)
 
 thisTree.printTree(thisTree.root)
+thisTree.searchTree(4, thisTree.root)
+thisTree.searchTree(6, thisTree.root)
